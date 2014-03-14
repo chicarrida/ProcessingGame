@@ -35,9 +35,13 @@ public class RectButton extends Button{
 		height = iheight;		
 		basecolor = icolor;
 		highlightcolor = ihighlight;
-		currentcolor = basecolor;	    
+		currentcolor = basecolor;	 
+		 String[] fontList = PFont.list();
+		 
+		 System.out.println(fontList[0]);
 		//Font needs to be in the workspace/project/bin/data-folder
-		font = p.loadFont("Arial-Black-20.vlw");
+		//font = p.loadFont("Arial-Black-20.vlw");
+		 font = p.createFont(fontList[0], 20);
 		textColor = 200;		
 	}
 
