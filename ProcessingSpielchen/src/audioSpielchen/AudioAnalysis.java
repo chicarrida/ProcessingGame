@@ -37,7 +37,7 @@ public class AudioAnalysis {
 			mic = true; 
 		}catch(Exception e)
 		{
-			//System.out.println("Missing microphone - something needs to be done in that case..."); 
+			System.out.println("Missing microphone - something needs to be done in that case..."); 
 		}
 	}
 
